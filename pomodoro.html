@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pomodoro.css">
+</head>
+
+<body>
+    <h1>POMODORO CLOCK</h1>
+    <div id="container">
+        <div id="upper">
+            <div id="outerring">
+                <div id="timer">
+                    <div id="time">
+                        <span id="wm">00</span>
+                        <span id="colon">:</span>
+                        <span id="ws">00</span>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="lower">
+            <label id="session">Session 1</label>
+            <hr style="border: 1px dotted white">
+            <div id="timecnt">
+                <div id="sessiontime">
+               <label>Session time</label>
+               <span id="left">00:min</span>
+               <button id="sbtn1" class="btn">-</button>
+               <button id="sbtn2" class="btn">+</button>
+                </div>
+                <div id="breaktime">
+                    <label>Break time</label>
+                    <span id="right">00:min</span>
+                    <button id="bbtn1" class="btn">-</button>
+                    <button id="bbtn2" class="btn">+</button>
+                </div>
+            </div>
+            <hr style="border: 1px dotted white">
+            <div id="btn">
+                <button type="button" id="start">start</button>
+                <button type="button"id="reset">reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="pomodoro.js"></script>
+    <!-- <script src="pomodoro.js"></script> -->
+</body>
+
+</html>
